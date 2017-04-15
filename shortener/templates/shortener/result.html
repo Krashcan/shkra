@@ -1,0 +1,16 @@
+{% extends "base.html"%}
+{% block content %}
+	{% if created %}
+	<h1 class="cover-heading btn-success">Created</h1>
+	{% else %}
+	<h1 class="cover-heading btn-warning">Exists</h1>
+	{% endif %}
+	<p class="lead">
+		<p>{{object.url}}</p>
+		<br>
+		<p>Total Clicks : {{object.clickevent.count}}</p>
+		<p ><a class ="btn-link" href={{object.get_short_url}}>{{object.get_short_url}}</a></p>
+		<p><a class ="btn btn-default" href = "/">+ New</a></p>
+	</p>
+</div>
+{% endblock content %}

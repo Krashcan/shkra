@@ -1,0 +1,40 @@
+<!DOCTYPE=html>
+<html>
+<head>
+	<title>Shkra | Shorten Your url</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="http://getbootstrap.com/examples/cover/cover.css" rel="stylesheet">
+	<style>
+		body{
+			background-color: #2e5e74;
+			background-image: url("http://northbeachvillageresort.com/assets/img/theme/slideshows/home/north-beach-village-resort-slide-4.jpg");
+			background-size : cover;
+			font-size: 34px;
+		}
+		.btn-link{
+			color: #3273ff;
+			text-shadow: none;
+		}
+		.btn-link:hover{
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        	<div class="cover-container">
+				<div class="inner cover">
+		            {% block content %}
+			
+		            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+		            <p class="lead">
+		              <a href="#" class="btn btn-lg btn-default">Learn more</a>
+		            </p>
+		            {% endblock content %}
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+</html>
