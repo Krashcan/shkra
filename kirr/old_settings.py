@@ -60,8 +60,8 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'kirr.urls'
 ROOT_HOSTCONF = 'kirr.hosts'
 DEFAULT_HOST = 'www'
-DEFAULT_REDIRECT_URL = 'http://www.krash.io/'
-PARENT_HOST = 'krash.io'
+DEFAULT_REDIRECT_URL = 'http://www.krash.io:8000/'
+PARENT_HOST = 'krash.io:8000'
 
 TEMPLATES = [
     {

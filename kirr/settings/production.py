@@ -59,7 +59,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'kirr.urls'
 ROOT_HOSTCONF = 'kirr.hosts'
-DEFAULT_HOST = 'www'
+DEFAULT_HOST = 'shkra'
 DEFAULT_REDIRECT_URL = 'http://shkra.herokuapp.com'
 PARENT_HOST = 'shkra.herokuapp.com'
 
