@@ -1,7 +1,7 @@
 appdirs==1.4.3
 Django==1.10.2
 django-hosts==2.0
+gunicorn==19.7.1
 packaging==16.8
 pyparsing==2.2.0
 six==1.10.0
-gunicorn==19.0.0
